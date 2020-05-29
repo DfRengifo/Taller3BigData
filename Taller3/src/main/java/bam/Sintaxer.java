@@ -37,6 +37,7 @@ public class Sintaxer extends Thread
 		
 		try 
 		{
+			System.out.println(base);
 			URL url = new URL(base);
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
 			con.setRequestMethod("POST");		 
